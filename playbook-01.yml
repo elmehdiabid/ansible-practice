@@ -1,5 +1,6 @@
 ---
 - hosts: local
+  connexion: local
   tasks:
     - name: Print message
       debug:
